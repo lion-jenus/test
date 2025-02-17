@@ -1,3 +1,8 @@
-const dice = document.getElementsByClassName('dice');
+const dice = document.querySelectorAll('.dice');
 
-console.log(dice[2]);
+dice[2].addEventListener('click', function() {
+  click = true
+  if(click) {
+    console.log(dice[2]);
+  }
+})

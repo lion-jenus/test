@@ -1,16 +1,91 @@
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  gap: 20px;
+}
+
 .dice {
   display: flex;
   width: 100px;
   height: 100px;
   border: 1px solid black;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 }
 
-.circle {
+.circle1 {
   display: flex;
   width: 20px;
   height: 20px;
   background-color: black;
   border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.circle2 {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.circle3 {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+
+.circle4 {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+}
+
+.circle5 {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 70px;
+}
+
+.circle6 {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+
+.circle7 {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  left: 70px;
 }

@@ -1,8 +1,6 @@
-const dice = document.querySelectorAll('.dice');
+const root = window.document.getElementById('root');
+const dice = root.getElementsByClassName('dice');
 
-dice[2].addEventListener('click', function() {
-  click = true
-  if(click) {
-    console.log(dice[2]);
-  }
-})
+console.log(root);
+console.log(dice);
+console.log(dice[2]);

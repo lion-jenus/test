@@ -11,7 +11,19 @@ btn.addEventListener('click', function(){
   const input = document.querySelector('input');
   if(input.value.trim() === "") {
     alert('값을 입력해 주세요.')
-  } else {
+  } 
+  if(input.value == 1) {
+    const div = document.createElement('div');
+    const circle1 = document.createElement('div');
+
+    div.setAttribute('class', 'dice');
+    circle1.setAttribute('class', 'circle1');
+
+    div.append(circle1);
+    root.appendChild(div);
+  }
+
+  else {
     console.log(input.value);
     const div = document.createElement('div');
     div.innerText = input.value;
